@@ -21,3 +21,5 @@ RUN wget https://github.com/QualInsight/qualinsight-plugins-sonarqube-badges/rel
   wget https://sonarsource.bintray.com/Distribution/sonar-xml-plugin/sonar-xml-plugin-1.4.3.1027.jar && \
   wget https://sonarsource.bintray.com/Distribution/sonar-groovy-plugin/sonar-groovy-plugin-1.4.jar
 
+WORKDIR $SONARQUBE_HOME
+
