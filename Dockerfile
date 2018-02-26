@@ -1,4 +1,4 @@
-FROM sonarqube:6.5
+FROM sonarqube:lts
 
 ENV PLUGIN_DIR=/opt/sonarqube/extensions/plugins/
 
